@@ -1,0 +1,122 @@
+.main_section h1 {
+  text-align: center;
+  padding: 50px;
+  font-size: 36px;
+}
+
+.main_part {
+  max-width: 1600px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  align-items: center;
+  margin: 0 auto;
+  gap: 15px;
+  flex-direction: row-reverse;
+}
+
+.main_card {
+  padding: 18px 43px 10px 43px;
+}
+
+.main_card input {
+  font-size: 18px;
+}
+
+.section {
+  max-width: 444px;
+  width: 100%;
+  border: 5px solid brown;
+}
+
+.s1 {
+  font-size: 20px;
+  margin: 0;
+  margin-left: 30px;
+}
+
+.in1 {
+  max-width: 120px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.in1 svg {
+  margin-top: 4px;
+}
+
+.i1 {
+  max-width: 339px;
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+  border: 5px solid grey;
+  outline: none;
+  padding: 10px 0px 5px 10px;
+}
+
+.i1::placeholder {
+  font-size: 18px;
+}
+
+.i2 {
+  max-width: 339px;
+  width: 100%;
+  height: 30px;
+  border: 5px solid grey;
+  outline: none;
+  margin-top: 25px;
+  padding: 3px 0px 5px 10px;
+}
+
+.i2::placeholder {
+  font-size: 18px;
+}
+
+.licon {
+  text-align: left;
+  margin-right: 13px;
+  font-size: 28px;
+}
+
+.p1 {
+  margin: 0;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.a1 {
+  margin-top: 10px;
+}
+
+.licon button {
+  cursor: pointer;
+  cursor: pointer;
+  font-size: 31px;
+  background: none;
+  border: none;
+  outline: none;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.licon .liconbtn {
+  cursor: pointer;
+  cursor: pointer;
+  font-size: 31px;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+#submitBtn {
+  background: brown;
+  color: white;
+  border-radius: 5px;
+  font-size: 22px;
+  padding: 5px 16px;
+  margin: 13px
+}
