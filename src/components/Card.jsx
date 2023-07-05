@@ -20,6 +20,7 @@ const Card = () => {
 
     const [cards, setCards] = useState([{ inputValue1: "", inputValue2: "" }]);
     console.log(cards);
+    
 
     const [cardCount, setCardCount] = useState(1); // Updated cardCount value
 
