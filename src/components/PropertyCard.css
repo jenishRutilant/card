@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.card-main-body {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.card-main-body .card-body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 25px 30px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 10px;
+    width: 530px;
+    height: auto;
+}
+
+.card-body-part .looking-property span {
+    border: 1px solid #ebecf0;
+    border-radius: 24px;
+    padding: 7px 22px;
+    font-size: 20px;
+    margin-right: 10px !important;
+    color: black;
+    cursor: pointer;
+}
+
+.bg-salmon {
+    background-color: #f0f9ff;
+    border: 1px solid #a3daff;
+    color: white;
+    font-weight: 600;
+}
+
+.property-type-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+.single-property {
+    border: 1px solid #ebecf0;
+    font-size: 20px;
+    padding: 7px 22px;
+    border-radius: 24px;
+    transition: 0.3s;
+    text-transform: capitalize;
+}
+
+.property-type-details .single-property:hover {
+    background-color: #f4f5f7;
+    cursor: pointer;  
+}
+.MuiTypography-root{
+    font-size: 20px !important;
+    margin-right: 10px !important;
+}

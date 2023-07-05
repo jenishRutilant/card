@@ -1,18 +1,12 @@
-import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Card from "./components/Card";
-import Demo from "./components/Demo";
+import './components/PropertyCard.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import PropertyCard from './components/PropertyCard';
 
 function App() {
   return (
-    <>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Card />} />
-          <Route path="Demo" element={<Demo />} />
-        </Routes>
-      </BrowserRouter>
-    </>
+    <div className="App">
+      <PropertyCard />
+    </div>
   );
 }
 
